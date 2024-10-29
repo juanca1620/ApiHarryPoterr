@@ -2,6 +2,11 @@
   <div class="board">
     <div class="board-loading" v-if="store.isLoading">
       <h1>Esperando el poder...</h1>
+      <img
+        src="https://www.meme-arsenal.com/memes/e7520acd7696619d21f7953a728b9ac1.jpg"
+        alt="Harry-potter-cargando"
+        class="Harry-potter-cargando"
+      />
     </div>
     <div class="board-error" v-else-if="store.errorState">
       <h1>Error al cargar los componentes 🧙🏻‍♂️, la magia oscura gano esta vez</h1>
